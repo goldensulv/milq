@@ -1,0 +1,8 @@
+use_cache "/home/ozen/python/milq/scripts/bash/OpenCV/.cache"
+#match_hash_in_cmake_cache "OCV_DOWNLOAD_IPPICV_HASH_3rdparty_ippicv_ippicv_2017u3_lnx_intel64_general_20180518_tgz"
+do_copy "res10_300x300_ssd_iter_140000_fp16.caffemodel" "f737f886e33835410c69e3ccfe0720a1" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/19512576c112aa2c7b6328cb0e8d589a4a90a26d/res10_300x300_ssd_iter_140000_fp16.caffemodel" "/home/ozen/python/milq/scripts/bash/OpenCV/samples/dnn/face_detector"
+#check_md5 "/home/ozen/python/milq/scripts/bash/OpenCV/samples/dnn/face_detector/res10_300x300_ssd_iter_140000_fp16.caffemodel"
+#match_md5 "/home/ozen/python/milq/scripts/bash/OpenCV/samples/dnn/face_detector/res10_300x300_ssd_iter_140000_fp16.caffemodel" "f737f886e33835410c69e3ccfe0720a1"
+do_copy "opencv_face_detector_uint8.pb" "56acf81f55d9b9e96c3347bc65409b9e" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/7b425df276ba2161b8edaab0f0756f4a735d61b9/opencv_face_detector_uint8.pb" "/home/ozen/python/milq/scripts/bash/OpenCV/samples/dnn/face_detector"
+#check_md5 "/home/ozen/python/milq/scripts/bash/OpenCV/samples/dnn/face_detector/opencv_face_detector_uint8.pb"
+#match_md5 "/home/ozen/python/milq/scripts/bash/OpenCV/samples/dnn/face_detector/opencv_face_detector_uint8.pb" "56acf81f55d9b9e96c3347bc65409b9e"

@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ozen/python/milq/scripts/bash/OpenCV/samples/cpp/tutorial_code/introduction/documentation/documentation.cpp
+iostream
+-
+
